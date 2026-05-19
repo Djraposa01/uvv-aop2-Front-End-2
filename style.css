@@ -1,0 +1,83 @@
+/* Configuração Base para os Botões (aplique a todos) */
+.btn-finance {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* 1. Botão de Ação Principal (Newsletter / Cadastro) 
+   Usa um azul sóbrio e passa confiança institucional. */
+.btn-primary-finance {
+  background-color: #0d47a1;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(13, 71, 161, 0.2);
+}
+
+.btn-primary-finance:hover {
+  background-color: #1565c0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(13, 71, 161, 0.3);
+}
+
+/* 2. Botão de Sucesso / Lucro (Simular Investimento / Render)
+   Verde que remete a crescimento financeiro e retorno positivo. */
+.btn-success-finance {
+  background-color: #2e7d32;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(46, 125, 50, 0.2);
+}
+
+.btn-success-finance:hover {
+  background-color: #388e3c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(46, 125, 50, 0.3);
+}
+
+/* 3. Botão de Destaque / Call to Action Forte (Planos / Premium)
+   Dourado/Amarelo escuro para indicar exclusividade e riqueza. */
+.btn-premium-finance {
+  background-color: #f59e0b;
+  color: #1e293b;
+  box-shadow: 0 4px 6px rgba(245, 158, 11, 0.2);
+}
+
+.btn-premium-finance:hover {
+  background-color: #d97706;
+  transform: scale(1.03); /* Leve pulo para chamar atenção */
+}
+
+/* 4. Botão Secundário / Minimalista (Ler Mais / Artigos Antigos)
+   Apenas bordas, ideal para não brigar com as ações principais da página. */
+.btn-outline-finance {
+  background-color: transparent;
+  color: #475569;
+  border: 2px solid #cbd5e1;
+}
+
+.btn-outline-finance:hover {
+  color: #1e293b;
+  border-color: #64748b;
+  background-color: #f8fafc;
+}
+
+/* 5. Botão de Alerta / Cuidado (Área de Risco / Calculadora de Dívidas)
+   Tom de vermelho/coral que alerta sem quebrar a estética profissional. */
+.btn-alert-finance {
+  background-color: #e11d48;
+  color: #ffffff;
+  box-shadow: 0 4px 6px rgba(225, 29, 72, 0.2);
+}
+
+.btn-alert-finance:hover {
+  background-color: #be123c;
+  transform: translateY(-2px);
+}
