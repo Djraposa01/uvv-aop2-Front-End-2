@@ -10,6 +10,14 @@ ul {
     padding: 0;       /* Remove o espaçamento esquerdo padrão que a bolinha ocupava */
     margin: 0;        /* Zera as margens padrões da lista */
 }
+footer {
+    background-color: #1b5e20; /* Tom de verde combinando com o banner */
+    color: white;             /* Cor do texto */
+    text-align: center;       /* Centraliza o texto */
+    padding: 20px 0;          /* Cria um espaçamento interno superior e inferior */
+    margin-top: 40px;         /* Empurra o footer para longe do conteúdo acima dele */
+    font-family: sans-serif;
+}
 /* Configuração Base para os Botões (aplique a todos) */
 .btn-finance {
   display: inline-block;
