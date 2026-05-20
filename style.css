@@ -1,3 +1,15 @@
+.logo-site {
+    width: 100%;          /* Ocupa toda a largura da tela */
+    max-width: 800px;    /* Limita o tamanho em telas muito grandes para não distorcer */
+    height: auto;         /* Mantém a proporção perfeita da imagem */
+    display: block;       /* Remove espaços em branco indesejados abaixo dela */
+    margin: 0 auto;       /* Centraliza o banner na tela */
+}
+ul {
+    list-style: none; /* Remove as bolinhas pretas da lista */
+    padding: 0;       /* Remove o espaçamento esquerdo padrão que a bolinha ocupava */
+    margin: 0;        /* Zera as margens padrões da lista */
+}
 /* Configuração Base para os Botões (aplique a todos) */
 .btn-finance {
   display: inline-block;
