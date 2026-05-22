@@ -19,6 +19,17 @@ nav ul {
   margin-top: 20px;
 }
 
+main h1,
+main > p {
+  text-align: center;
+}
+
+main > p {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer {
     background-color: #1b5e20; /* Tom de verde combinando com o banner */
     color: white;             /* Cor do texto */
@@ -46,15 +57,15 @@ footer {
 /* 1. Botão de Ação Principal 
    Usa um azul sóbrio e passa confiança institucional. */
 .btn-primary-finance {
-  background-color: #0d47a1;
+  background-color: #1b5e20;
   color: #ffffff;
-  box-shadow: 0 4px 6px rgba(13, 71, 161, 0.2);
+  box-shadow: 0 4px 6px rgba(27, 94, 32, 0.2);
 }
 
 .btn-primary-finance:hover {
-  background-color: #1565c0;
+  background-color: #2e7d32;
   transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(13, 71, 161, 0.3);
+  box-shadow: 0 6px 12px rgba(27, 94, 32, 0.3);
 }
 
 .links-paginas {
@@ -106,4 +117,82 @@ footer {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
+}
+
+.cards-verticais {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 820px;
+  margin: 32px auto 0;
+}
+
+.card-conteudo {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.card-conteudo img {
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.card-conteudo div {
+  padding: 20px;
+}
+
+.card-conteudo h2 {
+  margin: 0 0 10px;
+  color: #1b5e20;
+}
+
+.card-conteudo p {
+  margin: 0;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.cards-contatos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  max-width: 1000px;
+  margin: 32px auto 0;
+}
+
+.card-contato {
+  border-top: 6px solid #1b5e20;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.card-contato h2 {
+  margin: 0 0 12px;
+  color: #1b5e20;
+  font-size: 20px;
+}
+
+.card-contato p {
+  margin: 0 0 16px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.card-contato a {
+  color: #1b5e20;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card-contato a:hover {
+  text-decoration: underline;
 }
