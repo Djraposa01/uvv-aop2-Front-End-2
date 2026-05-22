@@ -10,6 +10,15 @@ ul {
     padding: 0;       /* Remove o espaçamento esquerdo padrão que a bolinha ocupava */
     margin: 0;        /* Zera as margens padrões da lista */
 }
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
 footer {
     background-color: #1b5e20; /* Tom de verde combinando com o banner */
     color: white;             /* Cor do texto */
@@ -46,4 +55,55 @@ footer {
   background-color: #1565c0;
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(13, 71, 161, 0.3);
+}
+
+.links-paginas {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.card-link {
+  width: 260px;
+  overflow: hidden;
+  border-radius: 8px;
+  color: #1b5e20;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+}
+
+.card-link img {
+  display: block;
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-link span {
+  display: block;
+  padding: 14px 14px 6px;
+  background-color: #ffffff;
+}
+
+.card-link p {
+  min-height: 72px;
+  margin: 0;
+  padding: 0 14px 16px;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
 }
